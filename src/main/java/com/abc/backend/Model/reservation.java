@@ -19,6 +19,7 @@ public class reservation {
     private int reservationType;
     private String reservationDate;
     private String reservationTime;
+    private String reservationAddress;
     private String reservationNote;
     private String reservationLocation;
     private String reservationPlacedTime;

@@ -43,6 +43,7 @@ public class reservationService {
             reservation.setReservationType(reservationDetails.getReservationType());
             reservation.setReservationDate(reservationDetails.getReservationDate());
             reservation.setReservationTime(reservationDetails.getReservationTime());
+            reservation.setReservationAddress(reservationDetails.getReservationAddress());
             reservation.setReservationNote(reservationDetails.getReservationNote());
             reservation.setReservationLocation(reservationDetails.getReservationLocation());
             reservation.setReservationPlacedTime(reservationDetails.getReservationPlacedTime());
