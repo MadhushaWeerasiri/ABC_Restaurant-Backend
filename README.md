@@ -84,11 +84,11 @@ Create an application.properties or application.yml file in the src/main/resourc
   # File storage configuration
   file.upload-dir=src/main/resources/static/assets
   ```
-server.port: The port on which the server will run.
-spring.data.mongodb.uri: MongoDB connection string.
-jwt.secret: Secret key used to sign JWT tokens.
-jwt.expiration: Expiration time for JWT tokens (in milliseconds).
-file.upload-dir: Directory to store uploaded files and images.
+- server.port: The port on which the server will run.
+- spring.data.mongodb.uri: MongoDB connection string.
+- jwt.secret: Secret key used to sign JWT tokens.
+- jwt.expiration: Expiration time for JWT tokens (in milliseconds).
+- file.upload-dir: Directory to store uploaded files and images.
 
 ## Project Steucture
 ```bash
@@ -113,36 +113,36 @@ ABC_Restaurant-Backend/
 
 ## API Endpoints
 ### Authentication
-POST /api/auth/register - Register a new user.
-POST /api/auth/login - Authenticate user and generate a JWT token.
+- POST /api/auth/register - Register a new user.
+- POST /api/auth/login - Authenticate user and generate a JWT token.
 
 ### Reservations
-GET /api/reservations - Get all reservations.
-POST /api/reservations - Create a new reservation.
-GET /api/reservations/{id} - Get reservation by ID.
-PUT /api/reservations/{id} - Update reservation by ID.
-DELETE /api/reservations/{id} - Delete reservation by ID.
+- GET /api/reservations - Get all reservations.
+- POST /api/reservations - Create a new reservation.
+- GET /api/reservations/{id} - Get reservation by ID.
+- PUT /api/reservations/{id} - Update reservation by ID.
+- DELETE /api/reservations/{id} - Delete reservation by ID.
 
 ### Products
-GET /api/products - Get all products.
-POST /api/products - Add a new product.
-GET /api/products/{id} - Get product by ID.
-PUT /api/products/{id} - Update product by ID.
-DELETE /api/products/{id} - Delete product by ID.
+- GET /api/products - Get all products.
+- POST /api/products - Add a new product.
+- GET /api/products/{id} - Get product by ID.
+- PUT /api/products/{id} - Update product by ID.
+- DELETE /api/products/{id} - Delete product by ID.
 
 ### Queries
-GET /api/queries - Get all queries.
-POST /api/queries - Submit a new query.
-GET /api/queries/{id} - Get query by ID.
-PUT /api/queries/{id} - Update query by ID.
-DELETE /api/queries/{id} - Delete query by ID.
+- GET /api/queries - Get all queries.
+- POST /api/queries - Submit a new query.
+- GET /api/queries/{id} - Get query by ID.
+- PUT /api/queries/{id} - Update query by ID.
+- DELETE /api/queries/{id} - Delete query by ID.
 
 ### Offers
-GET /api/offers - Get all offers.
-POST /api/offers - Create a new offer.
-GET /api/offers/{id} - Get offer by ID.
-PUT /api/offers/{id} - Update offer by ID.
-DELETE /api/offers/{id} - Delete offer by ID.
+- GET /api/offers - Get all offers.
+- POST /api/offers - Create a new offer.
+- GET /api/offers/{id} - Get offer by ID.
+- PUT /api/offers/{id} - Update offer by ID.
+- DELETE /api/offers/{id} - Delete offer by ID.
 
 ## Contributing
 We welcome contributions to improve this project! If you'd like to contribute, please follow these steps:
